@@ -1,3 +1,9 @@
 dvc
 dvc[gdrive]
 scikit-learn
+pytest
+tox
+flake8
+flask
+gunicorn
+pandas
