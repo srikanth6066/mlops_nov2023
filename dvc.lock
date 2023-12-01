@@ -72,3 +72,10 @@ stages:
       hash: md5
       md5: 612c127cd18ad6d2b0514f5b830a1097
       size: 1263
+  call_for_microservice:
+    cmd: python src/request_microservice.py
+    deps:
+    - path: src/request_microservice.py
+      hash: md5
+      md5: 01d259196a1e203ce70c37b3ab42e8fb
+      size: 505

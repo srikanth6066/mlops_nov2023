@@ -29,3 +29,19 @@ reports :
   scores : report/scores.json
 
 webapp_model_dir : prediction_service/model/model.joblib
+
+json_obj : {
+    "fixed_acidity" : 21,
+    "volatile_acidity" : 12,
+    "citric_acid" : 30,
+    "residual_sugar" : 12,
+    "chlorides" : 12,
+    "free_sulfur_dioxide" : 12,
+    "total_sulfur_dioxide" : 12,
+    "density" : 2,
+    "pH" : 12,
+    "sulphates" : 12,
+    "alcohol" : 12
+
+}
+url: http://localhost:5000 
