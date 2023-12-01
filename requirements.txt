@@ -9,3 +9,4 @@ flake8
 flask
 gunicorn
 pandas
+mlflow
